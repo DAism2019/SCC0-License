@@ -809,7 +809,7 @@ Copyright and related rights waived via [CC0](https://eips.ethereum.org/LICENSE)
 - [DAism](https://daism.io/workroom/1)
 - [Enki](https://daism.io/workroom/2)
 - [Honor Tokens](https://daism.io/workroom/3)
-# More about SCC0
+# More about SCC0 License
 - [DAism](https://daism.io)
 - [50Satoshis](https://50satoshis.com/)--Anonymous participants forged Satoshi UTO Fund with 50 wallet addresses and totally 1 ETH.
 
