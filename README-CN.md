@@ -34,7 +34,8 @@
 
 # 什么是 Smart Creative Commons Zero 许可证 (SCC0 License)？
 
-==Smart Creative Commons Zero License，简称SCC0 License，是自然道（NaturalDAO）的共识机制“爱的证明”（Proof of Love，Proof-of-Love，PoL）的核心协议之一。==
+*Smart Creative Commons Zero License，简称SCC0 License，是自然道（NaturalDAO）的共识机制“爱的证明”（Proof of Love，Proof-of-Love，PoL）的核心协议之一。*
+
 Consensus = Proof-of-Love
 
 人工智能（AI）的治理问题至关重要，而区块链技术在过去16年的发展中，已充分证明了其在解决中心化治理危机方面的卓越能力。其去中心化治理模式不仅具备高度的安全性和可靠性，还展现了显著的效率优势。基于此，我们有理由相信，任何 AI 软件都应尽快向去中心化 AI 应用（dAIpp<a href="#r5"><sup>[5]</sup></a>）的方向升级，以实现更透明、更安全、更高效的治理机制。
