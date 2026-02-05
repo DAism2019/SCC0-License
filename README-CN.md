@@ -121,6 +121,7 @@ SCC0 License V1 和 V2 对应的合约代码为
 contract SCC0License {
     string public constant LICENSE_NAME = "SCC0";
     uint8 public constant VERSION = a number;
+	bool public constant CONSENSUS = "Proof of Love"
     bool public constant REJECT_PRIVATE_APP = true;
     bool public constant SELF_ISSUED_TOKEN = false;
     bool public constant ANONYMITY_ENSURED = true;
