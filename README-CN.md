@@ -116,12 +116,12 @@ SCC0 License 是多版本的，并且允许多个版本同时有效。这也就�
 - 永久免费访问：除了不可避免的公链 gas 费用外，不存在任何使用成本；
 - 其治理基金为 Satoshi UTO Fund （合约地址：0xe40b05570d2760102c59bf4ffc9b47f921b67a1F），该基金为智能公器的发展承担成本，提供奖励。
 
-SCC0 License V1 和 V2 对应的合约代码为
+SCC0 License V3 对应的合约代码为
 ```solidity
 contract SCC0License {
     string public constant LICENSE_NAME = "SCC0";
     uint8 public constant VERSION = a number;
-	bool public constant CONSENSUS = "Proof of Love"
+	bool public constant CONSENSUS = "Proof of Love";
     bool public constant REJECT_PRIVATE_APP = true;
     bool public constant SELF_ISSUED_TOKEN = false;
     bool public constant ANONYMITY_ENSURED = true;
@@ -312,6 +312,28 @@ contract SCC0License {
     address public constant PUBLIC_GOVERNANCE_FUND = 0xe40b05570d2760102c59bf4ffc9b47f921b67a1F;
 }
 ```
+
+
+### SCC0 v3 合规合约
+
+DAism 部署的 [SCC0 v3 合规合约：](#)
+```solidity
+contract SCC0License {
+    string public constant LICENSE_NAME = "SCC0";
+    uint8 public constant VERSION = 3;
+	bool public constant CONSENSUS = "Proof of Love";
+    bool public constant REJECT_PRIVATE_APP = true;
+    bool public constant SELF_ISSUED_TOKEN = false;
+    bool public constant ANONYMITY_ENSURED = true;
+    bool public constant NO_RIGHTS = true;
+    bool public constant NO_LIABILITY = true;
+    bool public constant CODE_AUDITED_VERIFIED_PUBLISHED = true;
+    bool public constant PERMANENTLY_FREE = true;
+    address public constant PUBLIC_GOVERNANCE_FUND = 0xe40b05570d2760102c59bf4ffc9b47f921b67a1F;
+}
+```
+
+
 #### 2. SCC0 许可证版本管理合约
 SCC0 许可证管理合约提供了许可证管理员管理，许可证版本管理和查验所有废弃版本功能。它支持：
 - 许可证版本管理员管理：本合约 owner（代表的是本合约管理团队的一个多签地址）管理许可证版本管理员，即 owner 可以添加或者移除许可证版本管理员。
